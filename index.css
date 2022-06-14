@@ -1,0 +1,78 @@
+.playerOne {
+    float: left;
+    color: skyblue;
+}
+
+.playerTow {
+    float: right;
+    margin-right: 3px;
+    color: skyblue;
+}
+
+.box {
+    margin: auto;
+}
+
+.box1,
+.box2,
+.box3,
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.box1>div {
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: pink;
+    line-height: 30px;
+    text-align: center;
+}
+
+.box2>div {
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: pink;
+    line-height: 30px;
+    text-align: center;
+}
+
+.box3>div {
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: pink;
+    line-height: 30px;
+    text-align: center;
+}
+
+.btn>#pass {
+    margin-top: 50px;
+}
+
+/* 隐藏 */
+.hidden {
+    display: none;
+}
+
+.rule {
+    margin-top: 130px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+body {
+    background-image: url(./images/king.jpg);
+}
+
+/* .Disable {
+    background-color: #999;
+} */

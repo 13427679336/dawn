@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>笔试题</title>
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <span class="playerOne">
+        <button id="Player1" style="margin:0 5px">确认</button>
+        玩家一：<input id="p1" type="text" placeholder="请输入你要拿走的盒子">
+        <input id="list1" type="text" list="list" placeholder="请选行">
+    </span>
+    <span class="playerTow">
+        <input id="list2" type="text" list="list" placeholder="请选行">
+        <input id="p2" type="text" placeholder="请输入你要拿走的盒子">：玩家二
+        <button id="Player2" style="margin:0 5px">确认</button>
+    </span>
+    <datalist id="list">
+        <option value="1"></option>
+        <option value="2"></option>
+        <option value="3"></option>
+    </datalist>
+    <div class="box">
+        <span class="box1">
+            <div id="one">1</div>
+            <div id="tow">2</div>
+            <div id="three">3</div>
+        </span>
+        <span class="box2">
+            <div id="four">1</div>
+            <div id="five">2</div>
+            <div id="six">3</div>
+            <div id="seven">4</div>
+            <div id="eight">5</div>
+        </span>
+        <span class="box3">
+            <div id="nine">1</div>
+            <div id="ten">2</div>
+            <div id="eleven">3</div>
+            <div id="twelve">4</div>
+            <div id="thirteen">5</div>
+            <div id="fourteen">6</div>
+            <div id="fifteen">7</div>
+        </span>
+    </div>
+    <div class="btn">
+        <button id="pass">该你了！！！</button>
+    </div>
+
+    <div class="rule">
+        <h1>注意！！！</h1>
+        <p>游戏规则：每人可以在一轮内，在任意行拿任意根盒子，但不能跨行，拿最后一根牙签的人即为输家</p>
+        <p>按F5重新开始游戏！</p>
+    </div>
+</body>
+
+</html>
